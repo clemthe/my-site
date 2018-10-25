@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE htlm>
 
 <html>
 
@@ -23,9 +23,11 @@
     <meta name="twitter:description" content="Description de IDEO, l'idée qu'il vous faut.">
     <meta name="twitter:image" content="https://clemthe.github.io/my-site/images/logo.png">
 
-
 		<!-- Reférence pour fontawesome -->
  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous"> 
+
+	<!-- Reférence pour bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 	<!-- Ref pour fichier CSS  -->
 	<link rel="stylesheet" href="css/style.css">
@@ -34,7 +36,7 @@
 
 
  <body>
-	<div id=header-fixed> <!--début du header fixe : comprend les RS, le logo et le menu-->
+	<div id="header-fixed"> <!--début du header fixe : comprend les RS, le logo et le menu-->
 		<div id="header-rs">
 			<ul class="list-without-bullet-point">
 				<li class="inline">
@@ -99,8 +101,8 @@
 			Montius nos tumore inusitato quodam et novo ut rebellis et maiestati recalcitrantes Augustae per haec quae strepit incusat iratus nimirum quod contumacem praefectum, quid rerum ordo postulat ignorare dissimulantem formidine tenus iusserim custodiri. Haec igitur Epicuri non probo, inquam. De cetero vellem equidem aut ipse doctrinis fuisset instructior est enim, quod tibi ita videri necesse est, non satis politus iis artibus, quas qui tenent, eruditi appellantur aut ne deterruisset alios a studiis. quamquam te quidem video minime esse deterritum.
 		</p>
 
-		<div class="cards"> 
-			<div class="card">
+		<div class="flexbox"> 
+			<div class="flexbox-item">
 				<img src="images/background.png" >
 				<h3> Bla bla bla </h3>
 				<p> 
@@ -108,7 +110,7 @@
 				</p>
 			</div>
 
-			<div class="card">
+			<div class="flexbox-item">
 				<img src="images/background.png" >
 				<h3> Bla bla bla </h3>
 				<p> 
@@ -116,7 +118,7 @@
 				</p>
 			</div>
 
-			<div class="card">
+			<div class="flexbox-item">
 				<img src="images/background.png" >
 				<h3> Bla bla bla </h3>
 				<p> 
@@ -169,12 +171,87 @@
 		</p>
 	</div>
 
+<!-- 	<div id="pre-footer">
+		<div class="pre-footer-item">
+			<img src="images/background.png" >
+			<h3> Bla bla bla </h3>
+		</div>
+
+		<div class="pre-footer-item">
+			<img src="images/background.png" >
+			<h3> Bla bla bla </h3>
+		</div>
+
+		<div class="pre-footer-item">
+			<img src="images/background.png" >
+			<h3> Bla bla bla </h3>
+		</div>
+
+		<div class="pre-footer-item">
+			<img src="images/background.png" >
+			<h3> Bla bla bla </h3>
+		</div>
+
+		<div class="pre-footer-item">
+			<img src="images/background.png" >
+			<h3> Bla bla bla </h3>
+		</div>
+		<div class="pre-footer-item">
+			<img src="images/background.png" >
+			<h3> Bla bla bla </h3>
+		</div>
+	</div> -->
+
+
+	<div id="pre-footer">
+		<!-- <div class="container"> -->
+ 			 <div class="row text-center">
+   				 <div class="col-xs-6 col-sm-4 col-md-2">
+   				 	<div class=pre-footer-item>
+     			 		<img src="images/background.png" >
+						<h3> Bla bla bla </h3>
+    				</div>
+    			</div>
+    			<div class="col-xs-6 col-sm-4 col-md-2">
+   				 	<div class=pre-footer-item>
+     			 		<img src="images/background.png" >
+						<h3> Bla bla bla </h3>
+    				</div>
+    			</div>
+    			<div class="col-xs-6 col-sm-4 col-md-2">
+    				 <div class=pre-footer-item>
+     			 		<img src="images/background.png" >
+						<h3> Bla bla bla </h3>
+    				</div>
+   				 </div>
+   				 <div class="col-xs-6 col-sm-4 col-md-2">
+    			   	<div class=pre-footer-item>
+     			 		<img src="images/background.png" >
+						<h3> Bla bla bla </h3>
+    				</div>
+   			 	</div>
+   			 	<div class="col-xs-6 col-sm-4 col-md-2">
+    			   	<div class=pre-footer-item>
+     			 		<img src="images/background.png" >
+						<h3> Bla bla bla </h3>
+    				</div>
+   			 	</div>
+    			<div class="col-xs-6 col-sm-4 col-md-2">
+    			   	<div class=pre-footer-item>
+     			 		<img src="images/background.png" >
+						<h3> Bla bla bla </h3>
+    				</div>
+   			 	</div>  			 	
+  			</div>
+		<!-- </div> -->
+	</div>
+
 	<div id="footer">
-		<a class="card2" href="#header-rs">
+		<a class="footer-item" href="#header-rs">
 			<img src="images/logo.png" alt="logo IDEO">
 		</a>
 
-		<ul class="list-without-bullet-point card2">
+		<ul class="list-without-bullet-point footer-item">
 			<li class="logos-rs">
 				<a href="https://www.linkedin.com/" target="_blank">
 					<i class="fab fa-linkedin-in"></i>

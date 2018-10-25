@@ -1,10 +1,10 @@
 
-.cards {
+.flexbox {
   	display: flex;
 	flex-wrap: wrap;
 }
 
-.card {
+.flexbox-item {
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -12,14 +12,15 @@
 	justify-content:space-between;
 	margin:4px;
 	flex-basis:200px;
+	flex-grow: 1;
 }
 
-.card img {
+.flexbox-item img {
 	width:150px;
 	text-align:center;
 }
 
-.card h3 {
+.flexbox-item h3 {
 	text-align:center;
 }
 
