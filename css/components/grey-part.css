@@ -1,0 +1,31 @@
+.grey-part {
+	background-color: rgb(240,240,240);
+	padding:20px;
+}
+
+.grey-part #logo-quote-open{
+	text-align:left;
+	padding-top:10px;
+}
+
+.grey-part #logo-quote-close{
+	text-align:right;
+}
+
+.grey-part i{
+	font-size:40px;
+}
+
+.grey-part #quote{
+	font-style: italic;
+	font-size:20px;
+	font-weight:100;
+	text-align:center;
+}
+
+.grey-part #name{
+	font-style: italic;
+	font-weight: 900;
+	text-align:right;
+	padding-top:10px;
+}

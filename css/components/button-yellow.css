@@ -1,0 +1,20 @@
+.button-yellow {
+	background-color:rgb(250,250,250,15%);
+	color: #F9B62C;
+	width : 300px;
+	padding-top : 10px;
+	padding-bottom:10px;
+	padding-right:40px;
+	padding-left:40px;
+	font-size: 15px;
+	border-radius: 40px;
+	border:2px solid #F9B62C;
+	font-weight: 100;
+}
+
+
+.button-yellow:hover {
+	background-color: #F9B62C;
+	color:white;
+	transition: background-color 0.4s ease;
+}
