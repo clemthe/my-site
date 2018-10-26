@@ -18,6 +18,7 @@
 	align-items:center;
 	/*justify-content:space-between;*/
 	margin:4px;
+	width:100%;
 	/*flex-basis:150px;*/
 	/*flex-grow: 1;*/
 }

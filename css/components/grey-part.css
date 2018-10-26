@@ -1,6 +1,7 @@
 .grey-part {
 	background-color: rgb(240,240,240);
 	padding:20px;
+	width:100%;
 }
 
 .grey-part #logo-quote-open{
