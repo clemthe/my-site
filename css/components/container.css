@@ -14,7 +14,7 @@
  /* For a screen < 992px, this CSS will be read */
  .container {
    width: 700px;
-}
+	}
 }
 
 @media (max-width: 768px) {
@@ -24,9 +24,9 @@
  }
 }
 
-@media (max-width: 540px) {
- /* For a screen < 540px, this CSS will be read */
+/*@media (max-width: 540px) {
+  For a screen < 540px, this CSS will be read 
  .container {
    width: 400px;
  }
-}
+}*/
