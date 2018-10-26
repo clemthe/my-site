@@ -18,10 +18,12 @@
 #menu .inline a {
 	margin: 0;
 	padding:10px;
+  text-decoration:none;
 }
 
 #menu .inline a:hover {
   color: #F9B62C;
   transition: color 0.2s ease;
   font-weight: 700;
+  text-decoration:none;
 }
