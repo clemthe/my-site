@@ -1,7 +1,6 @@
 #pre-footer{
 	padding-top:10px;
 	background-color:#52B6AC;
-	width:100%;
 	text-align:center;
 	/*display:flex;*/
 	/*justify-content: space-between;*/
@@ -18,7 +17,6 @@
 	align-items:center;
 	/*justify-content:space-between;*/
 	margin:4px;
-	width:100%;
 	/*flex-basis:150px;*/
 	/*flex-grow: 1;*/
 }
