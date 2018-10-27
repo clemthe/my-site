@@ -1,7 +1,7 @@
 /*import des fichiers components CSS*/
 @import url("components/header.css");
-@import url("components/banner.css");
 @import url("components/menu.css");
+@import url("components/banner.css");
 @import url("components/list-inline.css");
 @import	url("components/container.css");
 @import url("components/button-yellow.css");
@@ -19,7 +19,6 @@ body {
 	font-family: "roboto", sans-serif;
 	font-weight: 300;
 	text-align: justify;
-	margin: 0;
 }
 
 h1 {
