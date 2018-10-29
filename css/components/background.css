@@ -1,0 +1,38 @@
+.background {
+	background-image: url("../../images/Desk.jpg");
+	background-image: linear-gradient(-225deg, rgb(0,0,0,0.5) 0%, rgb(0,0,0,0.1) 80%), url("../../images/computer.jpg");
+	background-size:cover;
+	background-color: grey;
+	background-attachment: fixed;
+	text-align:center;
+	padding:125px 0px;
+	width:100%;
+}
+
+.background p{
+	color:white;
+	font-weight:900;
+	font-size:40px;
+	padding:0;
+}
+
+.background i {
+	font-size: 80px;
+	padding:0;
+	color:white;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+.background:hover p{
+	color: #F9B62C;
+	transition: color 0.7s ease;
+}
+
+
+.background:hover i{
+	color: #F9B62C;
+	transition: color 0.7s ease;
+}

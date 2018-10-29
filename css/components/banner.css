@@ -1,40 +1,30 @@
 
 #banner {
-	background-image: url("../../images/background-smile.png");
-	background-image: linear-gradient(-225deg, rgb(0,0,0,0.5) 0%, rgb(0,0,0,0.1) 80%), url("../../images/background-smile.png");
+	background-image: url("../../images/lightbulb.jpg");
+	background-image: linear-gradient(-225deg, rgb(0,0,0,0.6) 0%, rgb(0,0,0,0.4) 80%), url("../../images/high-five.jpg");
 	background-size:cover;
 	background-color: grey;
 	background-position: fixed;
 	text-align:center;
-	padding-top:300px;
+	padding-top:250px;
 	padding-bottom:125px;
 	padding-left: 0px;
 	padding-right:0px;
 	width:100%;
 	height: 100vh;
+	color:white;
+	text-transform: uppercase;
 }
 
 #banner h1{
-	text-transform: uppercase;
 	margin:0 ;
 	padding:0 ;
 	font-size: 40px;
 	letter-spacing: 4px;
-	color:white;
 	font-weight: 900;
-	margin-bottom:50px;
 }
 
-.background {
-	background-image: url("../../images/background-smile.png");
-	background-image: linear-gradient(-225deg, rgb(0,0,0,0.5) 0%, rgb(0,0,0,0.1) 80%), url("../../images/background-smile.png");
-	background-size:cover;
-	background-color: grey;
-	background-attachment: fixed;
-	text-align:center;
-	padding:125px 0px;
-	color:white;
-	font-weight:900;
-	font-size:40px;
-	width:100%;
+#banner p {
+	font-size: 18px;
 }
+

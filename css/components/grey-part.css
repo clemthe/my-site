@@ -17,6 +17,10 @@
 	font-size:40px;
 }
 
+.grey-part p{
+	padding:10px 0px;
+}
+
 .grey-part #quote{
 	font-style: italic;
 	font-size:20px;

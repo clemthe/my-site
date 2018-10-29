@@ -4,6 +4,7 @@
 @import url("components/banner.css");
 @import url("components/list-inline.css");
 @import	url("components/container.css");
+@import url("components/background.css");
 @import url("components/button-yellow.css");
 @import url("components/grey-part.css");
 @import url("components/flexbox.css");
@@ -19,6 +20,7 @@ body {
 	font-family: "roboto", sans-serif;
 	font-weight: 300;
 	text-align: justify;
+	font-size: 15px;
 }
 
 h1 {
@@ -35,3 +37,14 @@ p {
 	padding-bottom: 40px;
 }
 
+h2 {
+	color: #F9B62C;
+	padding:0px 30px;
+	padding-top: 30px;
+	font-size: 50px;
+	font-weight: 900;
+}
+
+strong{
+	color:#F9B62C
+}
