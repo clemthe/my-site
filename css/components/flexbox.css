@@ -16,11 +16,15 @@
 }
 
 .flexbox-item img {
-	width:130px;
+	width:100px;
 	text-align:center;
 }
 
 .flexbox-item h3 {
 	text-align:center;
+}
+
+.flexbox-item p {
+	padding-top: 20px;
 }
 

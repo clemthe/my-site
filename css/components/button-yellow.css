@@ -1,5 +1,5 @@
 .button-yellow {
-	background-color:rgb(250,250,250,15%);
+	background-color:rgb(250,250,250,30%);
 	color: #F9B62C;
 	width : 300px;
 	padding-top : 10px;
@@ -9,7 +9,8 @@
 	font-size: 15px;
 	border-radius: 40px;
 	border:2px solid #F9B62C;
-	font-weight: 100;
+	font-weight: 500;
+	letter-spacing: 1px;
 }
 
 
