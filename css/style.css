@@ -9,6 +9,7 @@
 @import url("components/grey-part.css");
 @import url("components/flexbox.css");
 @import url("components/footer.css");
+@import url("components/hover.css");
 
 
 /*import police*/
@@ -40,11 +41,17 @@ p {
 h2 {
 	color: #F9B62C;
 	padding:0px 30px;
-	padding-top: 30px;
+	padding-top: 120px;
 	font-size: 50px;
 	font-weight: 900;
 }
 
+#aider{
+	text-transform: uppercase;
+	color: #334E58;
+	padding-top:40px;
+}
+
 strong{
-	color:#F9B62C
+	color:#F9B62C;
 }
