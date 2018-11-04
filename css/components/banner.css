@@ -1,6 +1,6 @@
 
 #banner {
-	background-image: url("../../images/lightbulb.jpg");
+	background-image: url("../../images/high-five.jpg");
 	background-image: linear-gradient(-225deg, rgb(0,0,0,0.6) 0%, rgb(0,0,0,0.4) 80%), url("../../images/high-five.jpg");
 	background-size:cover;
 	background-color: grey;
